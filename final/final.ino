@@ -7,12 +7,12 @@
 #define DHTTYPE DHT11   // DHT 22  (AM2302), AM2321
 DHT dht(DHTPIN, DHTTYPE);
 
- char* ssid = "Harish";   // your network SSID (name) 
- char* password = "Nainika@123";   // your network password
+ char* ssid = "";   // your network SSID (name) 
+ char* password = "";   // your network password
 WiFiClient  client;
 
-unsigned long myChannelNumber = 2291192;
-const char * myWriteAPIKey = "WMLKWK94FJVGMOXO";
+unsigned long myChannelNumber = ; //ChannelNumber
+const char * myWriteAPIKey = ""; //myWriteAPIKey
 
 // Timer variables
 unsigned long lastTime = 0;
